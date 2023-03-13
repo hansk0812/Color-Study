@@ -30,7 +30,6 @@ def stochastic_dropout(input: Tensor, p: float, training: bool = True) -> Tensor
 
     return input * noise
 
-stochastic_dropout(torch.ones((1,1024,512,512)), p=0.1)
 torch.fx.wrap("stochastic_dropout")
 
 class StochasticDropout(nn.Module):
@@ -43,5 +42,6 @@ class StochasticDropout(nn.Module):
         return stochastic_dropout(input, self.p, self.training)
 
     def __repr__(self) -> str:
-        s = f"{self.__class__.__name__}(p={self.p}, mode={self.mode})"
+        s = f"{self.__class__.__name__}(p={self.p})"
         return s
+
