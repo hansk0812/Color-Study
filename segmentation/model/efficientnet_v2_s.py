@@ -8,8 +8,8 @@ from torchvision.models import __file__, __dict__, efficientnet_v2_s, EfficientN
 weights = EfficientNet_V2_S_Weights.IMAGENET1K_V1
 model = efficientnet_v2_s(weights)
 
-torch.save(model, "vgg.pth")
-print (__file__); exit()
+torch.save(model, "efficientnet.pth")
+print (summary(model, (3,256,256))); exit()
 
 class UNet(nn.Module):
     

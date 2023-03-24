@@ -10,6 +10,7 @@ https://stackoverflow.com/questions/63933790/robust-algorithm-to-detect-uneven-i
 Link to result images from GMM-based color segmentation: https://drive.google.com/drive/u/0/folders/1xanvOQpJXh8iS_iCdUrQ5MeFQQbP6gly
 
 #### CURRENT DATASETS (https://drive.google.com/drive/folders/1Jecz9_nhU0kngk2iSdJKmcHYiMJRCZzt):
+#### https://huggingface.co/datasets/hans0812/fish-composite-segmentation/upload/main
 
 ##### Please feel free to suggest any new ones involving fish (hansk@nyu.edu)
 
