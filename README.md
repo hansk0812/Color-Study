@@ -1,3 +1,9 @@
+# FISH SEGMENTATION
+
+`cd segmentation/; git clone https://github.com/alzayats/DeepFish.git`
+
+# COLOR STUDY
+
 A collection of methods to analyse color changes in species of fish with the interest to extend it to other species of interest that show variations in color as parts of different aspects of their evolution! 
 
 ![Cherry-picking](resources/sample_results.png?raw=true "Sample GMM Color Distributions")
