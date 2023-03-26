@@ -66,7 +66,9 @@
       "folder": "AlvaradoLabSegmentation",
       "size": [
         {"backbone": "vgg",
-         "mb": 202}
+         "mb": 202},
+        {"backbone": "efficientnet_v2_s",
+         "mb": "in_progress"}
       ]
     }
     ]
